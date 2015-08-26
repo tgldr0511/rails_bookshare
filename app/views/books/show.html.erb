@@ -1,0 +1,22 @@
+<table class='table'> 
+
+<td> <img src='<%= @book.picture %>' />
+</td>
+
+<td>
+  <strong>Title:</strong>
+  <%= @book.title %>
+</td>
+
+<td>
+  <strong>Version:</strong>
+  <%= @book.version %>
+</td>
+
+<td>
+  <strong>Year:</strong>
+  <%= @book.year %>
+</td>
+<table>
+<%= link_to 'Edit', edit_book_path(@book) %> |
+<%= link_to 'Back', books_path %>
