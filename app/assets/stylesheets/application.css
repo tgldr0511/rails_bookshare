@@ -22,10 +22,14 @@ footer {
 }
 
 table, td, th {
-	vertical-align: middle; 
-	
+	vertical-align: top;
 }
 
 th {
 	border-bottom: 1px solid black;
+	text-align: center;
+}
+
+h4.bookTitle {
+	color: blue;
 }
